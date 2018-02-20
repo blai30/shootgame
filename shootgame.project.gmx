@@ -15,8 +15,11 @@
     <sprite>sprites\spr_healthbar</sprite>
     <sprite>sprites\spr_bulletparticle</sprite>
     <sprite>sprites\spr_crosshair</sprite>
+    <sprite>sprites\spr_flamethrower</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\InputMono</font>
@@ -33,7 +36,9 @@
     <object>objects\controller_camera</object>
     <object>objects\obj_damagenumber1</object>
     <object>objects\obj_damagenumber2</object>
+    <object>objects\obj_damagenumber3</object>
     <object>objects\obj_bulletparticle</object>
+    <object>objects\obj_flamethrower</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
